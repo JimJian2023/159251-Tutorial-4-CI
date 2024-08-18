@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.015" tests="2" errors="0" skipped="0" failures="1">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="org.example.CalcTest" time="0.01" tests="2" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="jpda.address" value="2802"/>
     <property name="java.specification.version" value="22"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="GBK"/>
@@ -10,15 +9,14 @@
     <property name="sun.arch.data.model" value="64"/>
     <property name="user.variant" value=""/>
     <property name="java.vendor.url" value="https://java.oracle.com/"/>
-    <property name="forkMode" value="once"/>
+    <property name="user.timezone" value="Pacific/Auckland"/>
     <property name="os.name" value="Windows 11"/>
     <property name="java.vm.specification.version" value="22"/>
-    <property name="user.country" value="NZ"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="NZ"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-22\bin"/>
-    <property name="sun.java.command" value="C:\Users\jiann\AppData\Local\Temp\surefire16299484116980956543\surefirebooter3326430505384812322.jar C:\Users\jiann\AppData\Local\Temp\surefire16299484116980956543 2024-08-18T12-44-20_927-jvmRun1 surefire12836442776024755191tmp surefire_016583370827264247851tmp"/>
+    <property name="sun.java.command" value="C:\Users\jiann\AppData\Local\Temp\surefire5675602853529683868\surefirebooter8852426687070282675.jar C:\Users\jiann\AppData\Local\Temp\surefire5675602853529683868 2024-08-18T13-12-59_226-jvmRun1 surefire7207940828706644898tmp surefire_04475761193061164920tmp"/>
     <property name="jdk.debug" value="release"/>
-    <property name="test" value="org.example.CalcTest"/>
     <property name="surefire.test.class.path" value="C:\Users\jiann\OneDrive - Massey University\159251 Software Engineering Desing and  Construction\Tutorial 4\tutorial4\target\test-classes;C:\Users\jiann\OneDrive - Massey University\159251 Software Engineering Desing and  Construction\Tutorial 4\tutorial4\target\classes;C:\Users\jiann\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.4.0\junit-jupiter-engine-5.4.0.jar;C:\Users\jiann\.m2\repository\org\apiguardian\apiguardian-api\1.0.0\apiguardian-api-1.0.0.jar;C:\Users\jiann\.m2\repository\org\junit\platform\junit-platform-engine\1.4.0\junit-platform-engine-1.4.0.jar;C:\Users\jiann\.m2\repository\org\opentest4j\opentest4j\1.1.1\opentest4j-1.1.1.jar;C:\Users\jiann\.m2\repository\org\junit\platform\junit-platform-commons\1.4.0\junit-platform-commons-1.4.0.jar;C:\Users\jiann\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.4.0\junit-jupiter-api-5.4.0.jar;C:\Users\jiann\.m2\repository\org\junit\jupiter\junit-jupiter\5.11.0\junit-jupiter-5.11.0.jar;C:\Users\jiann\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
     <property name="user.home" value="C:\Users\jiann"/>
@@ -32,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\jiann\AppData\Local\Temp\surefire16299484116980956543\surefirebooter3326430505384812322.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jiann\AppData\Local\Temp\surefire5675602853529683868\surefirebooter8852426687070282675.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="22.0.2+9-70"/>
@@ -43,8 +41,6 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="jpda.listen" value="true"/>
-    <property name="maven.ext.class.path" value="C:\Users\jiann\.vscode\extensions\oracle.oracle-java-22.1.1\nbcode\java\maven-nblib\netbeans-eventspy.jar"/>
     <property name="localRepository" value="C:\Users\jiann\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\jiann\AppData\Local\Temp\"/>
@@ -61,12 +57,7 @@
     <property name="java.vm.version" value="22.0.2+9-70"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="66.0"/>
-    <property name="maven.surefire.debug" value="-agentlib:jdwp=transport=dt_socket,server=n,address=2802"/>
   </properties>
-  <testcase name="testAddition" classname="org.example.CalcTest" time="0.007"/>
-  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0.005">
-    <failure message="expected: &lt;0&gt; but was: &lt;4&gt;" type="org.opentest4j.AssertionFailedError"><![CDATA[org.opentest4j.AssertionFailedError: expected: <0> but was: <4>
-	at org.example.CalcTest.testSubtraction(CalcTest.java:15)
-]]></failure>
-  </testcase>
+  <testcase name="testAddition" classname="org.example.CalcTest" time="0.006"/>
+  <testcase name="testSubtraction" classname="org.example.CalcTest" time="0"/>
 </testsuite>
